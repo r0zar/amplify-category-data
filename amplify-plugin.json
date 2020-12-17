@@ -1,0 +1,6 @@
+{
+  "name": "data-importer",
+  "type": "category",
+  "commands": ["version", "help", "add", "preprocess", "remove"],
+  "eventHandlers": ["PreInit", "PostInit", "PrePush", "PostPush"]
+}
